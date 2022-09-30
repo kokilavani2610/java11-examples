@@ -35,8 +35,7 @@ public class StringTest {
    */
   @Test
   public void testIsBlank() {
-    final String nonEmptyBlankString = " ";
-    assertThat(nonEmptyBlankString.isBlank()).isTrue();
+    final String nonEmptyBlankString = " ";    
     assertThat(nonEmptyBlankString.isEmpty()).isFalse();
 
     final String emptyString = "";
