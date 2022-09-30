@@ -74,6 +74,7 @@ public class HttpClientTest {
 
   private HttpClient httpClient;
   private boolean useDefaultHttpClient;
+  private String test = null;
 
   @BeforeEach
   void setUp() {
